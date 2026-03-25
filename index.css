@@ -1,0 +1,42 @@
+body {
+    background: #A728C6;
+    background: linear-gradient(135deg, #A728C6, #749DE1);
+    color:aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    overflow: hidden;
+    border: 2px aliceblue dashed;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: #80429E;
+}
+
+.main {
+    background-color: #80429E;
+    border-radius: 20px;
+    width: 70%;
+    padding: 30px;
+    display: block;
+    margin: auto;
+}
+
