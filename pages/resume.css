@@ -37,32 +37,16 @@ ul li a:hover{
     padding: 20px;
 }
 
-.main {
-    background-color: #80429E;
-    border-radius: 20px;
-    width: 70%;
-    padding: 40px;
+img {
+    width: 50%;
     display: block;
     margin: 10px auto;
-    font-size: 20px;
 }
 
-.main-title {
+.main {
     text-align: center;
-}
-
-.wrapper {
-    display: flex;
-}
-
-.main-text, .skills {
-    text-align: justify;
-    line-height: 1.5;
-}
-
-.headshot {
-    margin: 0 20px 0 0;
-    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 footer {
