@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: "Fira Sans", sans-serif;
     background: #A728C6;
@@ -5,7 +9,7 @@ body {
     color:aliceblue;
 }
 
-.navbar ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 3px;
@@ -16,12 +20,12 @@ body {
     font-size: 30px;
 }
 
-.navbar ul li {
+ul li {
     float: left;
     padding: 15px;
 }
 
-.navbar ul li a {
+ul li a {
     display: block;
     color: aliceblue;
     text-align: center;
@@ -29,7 +33,7 @@ body {
     text-decoration: none;
 }
 
-.navbar ul li a:hover{
+ul li a:hover{
     color: #ca96e4;
 }
 
@@ -47,42 +51,28 @@ body {
     font-size: 20px;
 }
 
-.main-title {
+h1 {
     text-align: center;
-    font-size: 45px;
 }
 
-h2 {
-    font-size: 40px;
-}
-
-.top-wrapper {
+.contact {
     display: flex;
+    justify-content: center;
 }
 
-.wrapper-bio {
-    text-align: justify;
-    padding-right: 50px;
+.contact-link {
+    padding: 40px;
+    text-align: center;
 }
 
-.wrapper-headshot {
-    padding-right: 25px;
+.contact-link a {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
 }
 
-.main-text, .skills {
-    text-align: justify;
-    line-height: 1.5;
-    font-size: 25px;
-}
-
-.headshot {
-    margin: 0 20px 0 0;
-    border-radius: 50%;
-}
-
-.skills li {
-    line-height: 1.5;
-    font-weight: bold;
+.contact-link:hover{
+    background-color: #ca96e4;
 }
 
 footer {

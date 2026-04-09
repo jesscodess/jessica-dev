@@ -5,7 +5,11 @@ body {
     color:aliceblue;
 }
 
-ul {
+.navbar {
+    padding: 20px;
+}
+
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 3px;
@@ -16,12 +20,12 @@ ul {
     font-size: 30px;
 }
 
-ul li {
+.navbar ul li {
     float: left;
     padding: 15px;
 }
 
-ul li a {
+.navbar ul li a {
     display: block;
     color: aliceblue;
     text-align: center;
@@ -29,13 +33,11 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover{
+.navbar ul li a:hover{
     color: #ca96e4;
 }
 
-.navbar {
-    padding: 20px;
-}
+
 
 .main {
     background-color: #80429E;
@@ -67,8 +69,18 @@ img {
     border-radius: 2%;
 }
 
-p {
-    padding: 20px;
+.description-box {
+    padding: 30px;
+}
+
+.description-box ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.description-box ul li a:hover{
+    color: #ca96e4;
 }
 
 footer {
