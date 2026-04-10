@@ -80,9 +80,21 @@ h2 {
     border-radius: 50%;
 }
 
-.skills li {
-    line-height: 1.5;
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.technical-skills {
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    color:#80429E;
+    background-color: #ca96e4;
     font-weight: bold;
+    font-size: 30px;
+    border-radius: 15px;
 }
 
 footer {
