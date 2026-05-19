@@ -1,0 +1,147 @@
+body {
+    font-family: "Fira Sans", sans-serif;
+    background: #A728C6;
+    background: linear-gradient(135deg, #A728C6, #749DE1);
+    color:aliceblue;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    overflow: hidden;
+    width: fit-content;
+    display: block;
+    margin: 15px auto;
+    font-size: 30px;
+}
+
+.navbar ul li {
+    float: left;
+    padding: 15px;
+}
+
+.navbar ul li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: #ca96e4;
+}
+
+.main {
+    background-color: #80429E;
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    display: block;
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.img-grid {
+    margin: 50px;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    margin: 5px;
+    border-radius: 2%;
+}
+
+.description-box {
+    padding: 30px;
+}
+
+.description-box ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.description-box ul li a:hover{
+    color: #ca96e4;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px 15px 30px 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer a:hover {
+    color: #ca96e4;
+}
+
+/*medium devices*/
+
+@media only screen and (max-width: 992px) {
+.navbar ul {
+    font-size: 25px;
+}
+
+.main {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+footer {
+    font-size: 15px;
+}
+}
+
+/*small devices*/
+
+@media only screen and (max-width: 768px) {
+
+.navbar ul {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+.img-grid {
+    margin: 25px;
+}
+
+.description-box {
+    font-size: 20px;
+}
+
+footer {
+    font-size: 15px;
+}
+}

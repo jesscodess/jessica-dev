@@ -1,0 +1,185 @@
+body {
+    font-family: "Fira Sans", sans-serif;
+    background: #A728C6;
+    background: linear-gradient(135deg, #A728C6, #749DE1);
+    color:aliceblue;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    overflow: hidden;
+    width: fit-content;
+    display: block;
+    margin: 15px auto;
+    font-size: 30px;
+}
+
+.navbar ul li {
+    float: left;
+    padding: 15px;
+}
+
+.navbar ul li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: #ca96e4;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.main {
+    background-color: #80429E;
+    border-radius: 20px;
+    width: 70%;
+    padding: 40px;
+    display: block;
+    margin: 10px auto;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.top-wrapper {
+    display: flex;
+}
+
+.wrapper-bio {
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.wrapper-headshot {
+    padding-right: 25px;
+}
+
+.main-text, .skills {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.headshot {
+    margin: 25px 20px 0 0;
+    border-radius: 50%;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.technical-skills {
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    color:#80429E;
+    background-color: #ca96e4;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px 15px 30px 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer a:hover {
+    color: #ca96e4;
+}
+
+/*medium devices*/
+
+@media only screen and (max-width: 992px) {
+.navbar ul {
+    font-size: 25px;
+}
+
+.main-title {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.main-text, .skills {
+    font-size: 20px;
+}
+
+.technical-skills {
+    font-size: 25px;
+}
+
+footer {
+    font-size: 15px;
+}
+}
+
+/*small devices*/
+
+@media only screen and (max-width: 768px) {
+
+.top-wrapper {
+    display: block;
+}
+
+.headshot {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.wrapper-bio {
+    padding-right: 0;
+}
+
+.navbar ul {
+    font-size: 20px;
+}
+
+.main-title {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+.main-text, .skills {
+    font-size: 20px;
+    text-align: left;
+}
+
+.technical-skills {
+    font-size: 20px;
+}
+
+footer {
+    font-size: 15px;
+}
+}
